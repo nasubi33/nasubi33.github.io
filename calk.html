@@ -10,19 +10,15 @@
     <button onclick="theworld()" type="button" name="button">計算する</button>
     <script type="text/javascript">
     function theworld() {
-      var prompt_a=prompt("一つ目の数を入れてください");
-      var prompt_b=prompt("二つ目の数を入れてください");
 
-      var result=parseInt(prompt_a)+parseInt(prompt_b);
+      var element1=document.getElementByid('int1');
+      var element2=document.getElementByid('int2');
+
+      var result=parseInt(element1.value)+parseInt(element2.value);
 
       alert(result);
     }
-      var prompt_a=prompt("一つ目の数を入れてください");
-      var prompt_b=prompt("二つ目の数を入れてください");
 
-      var result=parseInt(prompt_a)+parseInt(prompt_b);
-
-      alert(result);
     </script>
   </body>
 </html>
