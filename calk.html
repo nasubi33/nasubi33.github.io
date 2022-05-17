@@ -5,7 +5,18 @@
     <title></title>
   </head>
   <body>
+    <input id="int1" type="text" name="" value="">
+    <input id="int2" type="text" name="" value="">
+    <button onclick="theworld()" type="button" name="button">計算する</button>
     <script type="text/javascript">
+    function theworld() {
+      var prompt_a=prompt("一つ目の数を入れてください");
+      var prompt_b=prompt("二つ目の数を入れてください");
+
+      var result=parseInt(prompt_a)+parseInt(prompt_b);
+
+      alert(result);
+    }
       var prompt_a=prompt("一つ目の数を入れてください");
       var prompt_b=prompt("二つ目の数を入れてください");
 
